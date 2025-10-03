@@ -1,0 +1,12 @@
+//calculating area and perimeter of square
+#include<stdio.h>
+int main(){
+    int x,y;
+    printf("enter side of square=");
+    scanf("%i",&x);
+    printf("area of square=%i \n",x*x);
+    printf("perimeter of square=%i",4*x);
+
+
+    return 0;
+} 
