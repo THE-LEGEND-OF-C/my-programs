@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+    double x1,x2,y1,y2,z,m,n;
+    printf("enter value of x1=");
+    scanf("%lf",&x1);
+    printf("x2=");
+    scanf("%lf",&x2);
+    printf("y1=");
+    scanf("%lf",&y1);
+    printf("y2=");
+    scanf("%lf",&y2);
+    m=x2-x1;
+    n=y2-y1;
+    z=sqrt(m*m + n*n);
+    printf("distance btw the points=%lf",z);
+
+    return 0;
+}
