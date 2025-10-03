@@ -1,0 +1,14 @@
+//cube of only even number
+#include<stdio.h>
+int main(){
+    int x;
+    printf("Enter number =");
+    scanf("%i",&x);
+    if(x%2==0){
+        x=x*x*x;
+        printf("cube of x =%i",x);
+    }
+
+
+    return 0;
+}
