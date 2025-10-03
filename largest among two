@@ -1,0 +1,17 @@
+//finding the largest among two
+#include<stdio.h>
+int main(){
+    int x,y;
+    printf("enter first number=");
+    scanf("%i",&x);
+    printf("enter the second number=");
+    scanf("%i",&y);
+    if (x>y)
+        printf("%i is greater",x);
+    else
+        printf("%i is greater",y);
+
+
+
+    return 0;
+}
