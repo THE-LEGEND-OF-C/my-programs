@@ -1,0 +1,17 @@
+//calculating perimeter of rectangle
+#include<stdio.h>
+int main(){
+    int x,y;
+    printf("enter length of rectangle=");
+    scanf("%i",&x);
+    printf("enter breadth of rectangle= ");
+    scanf("%i",&y);
+    
+    
+    printf("area of rectangle=%i \n",x*y);
+    printf("perimeter of rectangle= %i",2*(x+y));
+
+
+
+    return 0; 
+}
