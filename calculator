@@ -1,0 +1,15 @@
+#include                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             jm mint main(){
+    int x,y;
+    printf("enter first digit=");
+    scanf("%i",&x);
+    printf("enter second digit=");
+    scanf("%i",&y);
+    printf("addition=%i \n",x+y);
+    printf("subtraction=%i \n",x-y);
+    printf("multiplication=%i \n",x*y);
+    printf("division=%i",x%y); 
+
+
+
+    return 0;
+}
