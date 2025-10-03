@@ -1,0 +1,13 @@
+//wap to print sum of all numbers from 1 to n
+#include<stdio.h>
+int main(){
+    int i,x,t;
+    t=0;
+    printf("Enter value of x=");
+    scanf("%i",&x);
+    for(i=1;i<=x;i+=1)
+        t+=i;
+        printf("%i \n",t);
+
+    return 0;
+}
