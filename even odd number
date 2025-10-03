@@ -1,0 +1,13 @@
+//even odd number
+#include<stdio.h>
+int main(){
+    int x;
+    printf("Enter number =");
+    scanf("%i",&x);
+    if(x%2==0)
+        printf("%i Number is even",x);
+    else
+        printf("%i number is odd",x);
+    
+    return 0;
+}
