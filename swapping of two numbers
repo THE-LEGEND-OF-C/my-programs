@@ -1,0 +1,16 @@
+//swapping of two numbers
+#include<stdio.h>
+int main(){
+    int x,y;
+    printf("enter first number = ");
+    scanf("%i",&x);
+    printf("enter second number = ");
+    scanf("%i",&y);
+    x=x+y;
+    y=x-y;
+    x=x-y;
+    printf("first number = %i\n",x);
+    printf("second number = %i",y);
+
+    return 0;
+}
