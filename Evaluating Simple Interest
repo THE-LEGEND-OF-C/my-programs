@@ -1,0 +1,16 @@
+//Evaluating Simple Interest
+#include<stdio.h>
+int main(){
+    int P,R,T,x;
+    printf("Principal amount P = ");
+    scanf("%i",&P);
+    printf("Rate of interest R = ");
+    scanf("%i",&R);
+    printf("Time period T = ");
+    scanf("%i",&T);
+    x=(P*R*T)/100;
+    printf("Simple interest = %i",x);
+
+
+    return 0;
+}
