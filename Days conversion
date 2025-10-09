@@ -1,0 +1,21 @@
+//Days conversion
+#include<stdio.h>
+int main(){
+    int x,Years,Weeks,Days;
+    printf("Enter Days:");
+    scanf("%i",&x);
+    Years=x/365;
+    x=x%365;
+    Weeks=x/7;
+    x=x%7;
+    Days=x;
+
+
+
+    printf("Years:%i\n",Years);
+    printf("Weeks:%i\n",Weeks);
+    printf("Days:%i",Days);
+
+
+    return 0;
+}
