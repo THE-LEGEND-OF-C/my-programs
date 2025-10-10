@@ -1,0 +1,16 @@
+//REVERSE OF A NUMBER
+#include<stdio.h>
+int main(){
+    int x,a;
+    printf("Enter number = ");
+    scanf("%i",&x);
+    while(x>0){
+        a=x%10 ;
+        printf("%i",a);
+        x=x/10 ;
+    }
+
+
+    return 0;
+
+}
