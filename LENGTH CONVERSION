@@ -1,0 +1,14 @@
+//LENGTH CONVERSION
+#include<stdio.h>
+int main(){
+    int x;
+    float a,b;
+    printf("Enter number = ");
+    scanf("%d",&x);
+    a=x/100.0 ;
+    b=(float)x/100000.0 ;
+    printf("%.2f %.2f",a,b);
+
+
+    return 0;
+}
