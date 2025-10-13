@@ -1,0 +1,46 @@
+//NESTED SWITCH STATEMENT
+#include<stdio.h>
+int main(){
+    int student,surname;
+    printf("CHOOSE STUDENT  \n1->raghav\n2->dhruv\nENTER NUMBER TO CHOOSE=");
+    scanf("%d",&student);
+    printf("CHOOSE SURNAME  \n1->kumar\n2->gulati\nENTER NUMBER TO CHOOSE=");
+    scanf("%d",&surname);
+    switch(student)
+    {
+        case 1:
+            switch(surname)
+            {
+                case 1:
+                    printf("YOUR ROOM PASSWORD IS abc");
+                    break;
+                case 2:
+                    printf("YOUR ROOM PASSWORD IS dgh");
+                    break;
+                default:
+                    printf("WRONG SURNAME");
+
+            }
+            break;
+        case 2:
+            switch(surname)
+            {
+                case 1:
+                    printf("YOUR ROOM PASSWORD IS fwe");
+                    break;
+                case 2:
+                    printf("YOUR ROOM PASSWORD IS tjg");
+                    break;
+                default:
+                    printf("WRONG SURNAME");
+                    break;
+            }
+            default:
+                printf("WRONG STUDENT NAME");
+                break;
+
+    }
+
+
+    return 0;
+}
