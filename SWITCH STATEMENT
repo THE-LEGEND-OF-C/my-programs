@@ -1,0 +1,25 @@
+//SWITCH STATEMENT
+#include<stdio.h>
+int main(){
+    int roll;
+    printf("Enter roll = ");
+    scanf("%d",&roll);
+    switch(roll){
+        case 1:
+            printf("STUDENT NAME IS RAGHAV");
+            break;
+        case 2:
+            printf("STUDENT NAME IS DHRUV");
+            break;
+        case 3:
+            printf("STUDENT NAME IS NIKHIL");
+            break;
+        default:
+            printf("STUDENT ROLL NO. NOT FOUND");
+
+
+
+    }
+
+    return 0;
+}
