@@ -1,0 +1,25 @@
+//SEARCHING ELEMENTS OF ARRAY
+#include<stdio.h>
+int main(){
+    int x,s;
+    printf("ENTER SIZE OF ARRAY = ");
+    scanf("%d",&x);
+    int A[x];
+    printf("ENTER VALUES OF ARRAY = ");
+    for (int i=0;i<x;i=i+1)
+    {
+        scanf("%d",&A[i]);
+    }
+    printf("ENTER VALUE TO SEARCH = ");
+    scanf("%d",&s);
+    for(int i=0;i<x;i++)
+    {
+        if(A[i]==s)
+            printf("index of aaray containing your value=%d",i);
+    }
+
+
+
+
+    return 0;
+}
