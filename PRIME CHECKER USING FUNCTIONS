@@ -1,0 +1,32 @@
+//PRIME CHECKER USING FUNCTIONS
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int primechecker(int num){
+    if(num==1)
+        return 0;
+    for(int i=2;i<=num/2;i++){
+        if(num%i==0)
+            return 0;                 //returns false
+    }
+    return 1;
+}
+
+
+int main(){
+    int start,end,flag=0 ;
+    scanf("%d %d",&start,&end);
+    for(int i=start;i<=end;i++){
+        if(primechecker(i)){
+            printf("%d ",i) ;
+            flag=1 ;
+        }
+    }
+    if(flag==0)
+        printf("No prime numbers found") ;
+    
+
+    return 0;
+}
