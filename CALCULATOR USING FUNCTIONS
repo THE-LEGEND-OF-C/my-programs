@@ -1,0 +1,19 @@
+//CALCULATOR USING FUNCTIONS
+#include<stdio.h>
+void calculator(int,int) ;
+int main(){
+    int a,b ;
+    printf("Enter two numbers:");
+    scanf("%d %d",&a,&b);
+    calculator(a,b) ;
+
+
+    return 0;
+} 
+void calculator(int a,int b){
+    int add=a+b ;
+    int sub=a-b ;
+    int mul=a*b ;
+    int div=a/b ;
+    printf("ADDITION = %d\nSUBTRACTION = %d\nMULTIPLICATION = %d\nDIVISION = %d",add,sub,mul,div);
+} 
