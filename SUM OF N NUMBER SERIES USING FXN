@@ -1,0 +1,21 @@
+//SUM OF N NUMBER SERIES USING FXN
+#include<stdio.h>
+void numbers(int N){
+    int sum=0 ;
+    for(int i=1;i<=N;i++){
+        sum+=i ;
+    }
+    printf("SUM OF FIRST %d NUMBERS = %d ",N,sum) ;
+}
+
+
+
+int main(){
+    int N ;
+    printf("Enter N = ");
+    scanf("%d",&N);
+    numbers(N);
+
+    return 0;
+}
+
