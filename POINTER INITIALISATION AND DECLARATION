@@ -1,0 +1,11 @@
+//POINTER INITIALISATION AND DECLARATION
+#include<stdio.h>
+int main(){
+    int x ;
+    int *p=&x ;
+    printf("ENTER VALUE OF X = ");
+    scanf("%d",p);
+    printf("VALUE OF X = %d\nADDRESS OF X = %d",*p,p);
+
+    return 0;
+}
