@@ -1,0 +1,14 @@
+//SWAPPING OF 2 NUMBERS USING POINTERS(WITHOUT THIRD VARIABLE)
+#include<stdio.h>
+int main(){
+    int x,y ;
+    int *p1=&x , *p2=&y ;
+    printf("ENTER VALUE OF X AND Y : ");
+    scanf("%d%d",p1,p2);
+    int temp=*p1 ;
+    *p1=*p2 ;
+    *p2=temp ;
+    printf("AFTER SWAPPING\nX = %d\nY = %d",*p1,*p2);
+
+    return 0;
+}
