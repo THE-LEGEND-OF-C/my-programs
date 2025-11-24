@@ -1,0 +1,24 @@
+//CALLOC
+#include<stdio.h>
+#include<stdlib.h>
+int main(){
+int N;
+printf("ENTER VALUE OF N = ");
+scanf("%d",&N);
+int *p=(int*)calloc(NTDDI_WIN2KSP4,sizeof(int));
+if(p==NULL){
+    printf("MEMORY ALLOCATION FAILED");
+    return 0;
+}
+printf("ENTER ELEMENTS:");
+for(int i=0;i<N;i++){
+    scanf("%d",p+i);
+}
+printf("ELEMENTS ARE:");
+for(int i=0;i<N;i++){
+    printf("\n%d",*(p+i));
+}
+
+
+    return 0;
+}
