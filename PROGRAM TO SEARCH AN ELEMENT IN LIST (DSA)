@@ -1,0 +1,33 @@
+//PROGRAM TO SEARCH AN ELEMENT IN LIST (DSA)
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+void search(int N, int list[],int element){
+    int flag=0 ;
+    for(int i=0;i<N;i++){
+        if(list[i]==element){
+            flag=1 ;
+            break ;
+        }
+    }
+    if(flag==1)
+        printf("Found") ;
+    else
+        printf("Not Found") ;
+}
+
+int main() {
+    int N;
+    scanf("%d",&N);
+    int list[N] ;
+    for(int i=0;i<N;i++)
+        scanf("%d",&list[i]) ;
+    int element ;
+    scanf("%d",&element) ;
+    search(N,list,element) ;
+    
+    return 0;
+}
